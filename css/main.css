@@ -1,0 +1,31 @@
+	body {
+		margin: 0 12px;
+		background: #111;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		background-image: url(../img/bg.webp);
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: 50%;
+	}
+	#logosec {
+		display: flex;
+		justify-content: center;
+		animation: 4s show ease;
+		margin-top: 10%;
+	}
+
+	.logo {
+		display: flex;
+		justify-content: center;
+	}
+	.logo img {
+		width: 100%;
+	}
+
+	@media (min-width: 320px) and (max-width: 768px) {
+
+		.logo img {width: 90%; margin-top: 50%;} 
+		}
