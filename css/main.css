@@ -1,30 +1,41 @@
 	body {
-		margin: 0 12px;
+		margin: 3% 12px;
 		background: #111;
 		display: flex;
-		justify-content: center;
+		flex-direction: column;
 		align-items: center;
-		align-content: center;
 		background-image: url(../img/bg.webp);
 		background-position: top center;
 		background-repeat: no-repeat;
 		background-size: 50%;
 	}
+
 	#logosec {
 		display: flex;
 		justify-content: center;
-		animation: 4s show ease;
-		margin-top: 10%;
+		animation: 3s show ease;
+		margin-top: 5%;
 	}
 
 	.logo {
 		display: flex;
 		justify-content: center;
 	}
+
 	.logo img {
 		width: 100%;
 	}
 
+	.flag {
+		background-image: linear-gradient(#0057B7 50%, #FFDD00 0%);
+		height: 7em;
+    	width: 12em;
+		}
+
+	.flagbottom {
+		height: 50%;
+		}
+	
 	@media (min-width: 320px) and (max-width: 768px) {
 
 		.logo img {width: 90%; margin-top: 50%;} 
