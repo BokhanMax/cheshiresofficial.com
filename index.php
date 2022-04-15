@@ -7,6 +7,7 @@
 	<script src="/js/protect.js" async></script>
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
 	<link rel="stylesheet" type="text/css" href="/css/keyframes.css">
+	<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css"> -->
 </head>
 <body>
 	<section id="flagsec">
@@ -23,7 +24,28 @@
 	</section>
 
 	<footer id="socialsec">
-		<div class="socials"></div>
+		<div class="socials">
+			<a href="https://www.facebook.com/cheshiresofficial/" target="_blank">
+			<svg class="grow" style="fill: #fff; width: 5em; margin: 0 3em;">
+        		<use xlink:href="/img/fa-brands.svg#facebook"></use>
+        	</svg>
+			</a>
+			<a href="https://www.instagram.com/cheshiresofficial/" target="_blank">
+			<svg class="grow" style="fill: #fff; width: 5em; margin: 0 3em;">
+    		    <use xlink:href="/img/fa-brands.svg#instagram"></use>
+        	</svg>
+			</a>
+			<a href="https://www.youtube.com/c/CHESHIRES/" target="_blank">
+			<svg class="grow" style="fill: #fff; width: 5em; margin: 0 3em;">
+				<use xlink:href="/img/fa-brands.svg#youtube"></use>
+			</svg>
+			</a>
+			<a href="https://twitter.com/cheshiresband/" target="_blank">
+			<svg class="grow" style="fill: #fff; width: 5em; margin: 0 3em;">
+				<use xlink:href="/img/fa-brands.svg#twitter"></use>
+			</svg>
+			</a>
+		</div>
 	</footer>
 
 </body>

@@ -9,12 +9,19 @@
 		background-repeat: no-repeat;
 		background-size: 50%;
 	}
+	a {
+		color: black;
+	}
 
 	#logosec {
 		display: flex;
 		justify-content: center;
 		animation: 3s show ease;
-		margin-top: 5%;
+		margin-top: 10%;
+	}
+
+	#socialsec {
+		margin-top: 10%;
 	}
 
 	.logo {
@@ -31,12 +38,29 @@
 		height: 7em;
     	width: 12em;
 		}
+	
+	.flag:hover {
+		transform: scale(1.2);
+		transition: all .3s ease-in-out;
+		}
 
 	.flagbottom {
 		height: 50%;
 		}
 	
+	svg:hover {
+		transform: scale(1.2);
+	}
+
+	svg.grow {
+		transition: all .3s ease-in-out;
+	}
+	
 	@media (min-width: 320px) and (max-width: 768px) {
 
-		.logo img {width: 90%; margin-top: 50%;} 
+		body {background-size: 150%;}
+		.logo img {width: 90%; margin-top: 50%;}
+		#logosec {margin-top: unset;}
+		#socialsec {margin-top: 28%;}
+		svg {width: 3em!important; margin: 0 1em!important;}
 		}
