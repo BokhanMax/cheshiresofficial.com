@@ -10,7 +10,7 @@
 </head>
 <body>
 	<section id="flagsec">
-		<div class="flag"><div class="flagbottom"></div></div>
+		<div class="flag grow"><div class="flagbottom"></div></div>
 	</section>
 
 	<section id="logosec"><div class="logo">
@@ -18,29 +18,36 @@
 	</div></section>
 
 	<section id="buttonsec">
-		<div class="button"></div>
-		<div class="povernisj"></div>
+		<div class="tyr">Великий український тур «ПІСЛЯ ПЕРЕМОГИ»</div>
+		<a class="button glow-button grow" href="https://www.comebackalive.in.ua/donate" target="_blank">
+		<!-- <div class="button"> -->
+			НАБЛИЗИТИ ТУР
+		<!-- </div> -->
+		</a>
+		<div class="povernisj">
+			<img src="./img/povernis_zhivim.png">
+		</div>
 	</section>
 
 	<footer id="socialsec">
 		<div class="socials">
 			<a href="https://www.facebook.com/cheshiresofficial/" target="_blank">
-			<svg class="grow" style="fill: #fff; width: 5em; margin: 0 3em;">
+			<svg class="grow" style="fill: #fff; width: 3em; margin: 0 1em;">
         		<use xlink:href="/img/fa-brands.svg#facebook"></use>
         	</svg>
 			</a>
 			<a href="https://www.instagram.com/cheshiresofficial/" target="_blank">
-			<svg class="grow" style="fill: #fff; width: 5em; margin: 0 3em;">
+			<svg class="grow" style="fill: #fff; width: 3em; margin: 0 1em;">
     		    <use xlink:href="/img/fa-brands.svg#instagram"></use>
         	</svg>
 			</a>
 			<a href="https://www.youtube.com/c/CHESHIRES/" target="_blank">
-			<svg class="grow" style="fill: #fff; width: 5em; margin: 0 3em;">
+			<svg class="grow" style="fill: #fff; width: 3em; margin: 0 1em;">
 				<use xlink:href="/img/fa-brands.svg#youtube"></use>
 			</svg>
 			</a>
 			<a href="https://twitter.com/cheshiresband/" target="_blank">
-			<svg class="grow" style="fill: #fff; width: 5em; margin: 0 3em;">
+			<svg class="grow" style="fill: #fff; width: 3em; margin: 0 1em;">
 				<use xlink:href="/img/fa-brands.svg#twitter"></use>
 			</svg>
 			</a>

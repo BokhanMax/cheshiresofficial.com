@@ -1,6 +1,8 @@
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+	
 	body {
-		margin: 6% 12px 0 12px;
-		background: #111;
+		margin: 3% 12px 0 12px;
+		background: #000;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -13,30 +15,11 @@
 		color: black;
 	}
 
-	#logosec {
-		display: flex;
-		justify-content: center;
-		animation: 3s show ease;
-		margin-top: 10%;
-	}
-
-	#socialsec {
-		margin-top: 10%;
-	}
-
-	.logo {
-		display: flex;
-		justify-content: center;
-	}
-
-	.logo img {
-		width: 100%;
-	}
-
 	.flag {
+		animation: 1.5s show ease;
 		background-image: linear-gradient(#0057B7 50%, #FFDD00 0%);
-		height: 7em;
-    	width: 12em;
+		height: 5em;
+    	width: 9em;
 		}
 	
 	.flag:hover {
@@ -47,20 +30,96 @@
 	.flagbottom {
 		height: 50%;
 		}
-	
-	svg:hover {
-		transform: scale(1.2);
+
+	#logosec {
+		display: flex;
+		justify-content: center;
+		animation: 3s show ease;
+		margin-top: 4%;
 	}
 
-	svg.grow {
+	.logo {
+		display: flex;
+		justify-content: center;
+	}
+
+	.logo img {
+		width: 70%;
+	}
+
+	#buttonsec {
+		display: flex;
+    	flex-direction: column;
+    	align-items: center;
+	}
+	
+	.tyr {
+		color: white;
+		font-size: 27px;
+		margin-top: 6%;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 600;
+		animation: 4s show ease;
+	}
+
+	.button {
+		color: #fff;
+		text-decoration: none;
+		font-weight: 600;
+		font-size: 22px;
+		font-family: 'Montserrat', sans-serif;
+		display: flex;
+		align-items: center;
+		padding: 15px 45px;
+		background-color: red;
+		border: solid 1px red;
+		margin-top: 6%;
+		border-radius: 5px;
+		animation: 5s show ease;
+	}
+
+	.button:hover {
+		transform: scale(1.1);
 		transition: all .3s ease-in-out;
 	}
+
+	/*
+	.glow-button:hover {
+		color: rgba(255, 255, 255, 1);
+    	box-shadow: 2px -1px 13px 13px rgb(255 0 0);
+	  }
+	*/
 	
+	.povernisj {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 4%;
+	}
+
+	.povernisj img {
+		width: 40%;
+	}
+	
+	#socialsec {
+		margin-top: 5%;
+	}
+
+	svg:hover {
+		transform: scale(1.1);
+	}
+
+	.grow {
+		transition: all .3s ease-in-out;
+	}
+
 	@media (min-width: 320px) and (max-width: 768px) {
 
-		body {background-size: 150%; margin-top: 20%;}
-		.logo img {width: 90%; margin-top: 50%;}
+		body {background-size: 150%; margin-top: 12%;}
+		.logo img {width: 85%; margin-top: 20%;}
 		#logosec {margin-top: unset;}
-		#socialsec {margin-top: 28%;}
+		#socialsec {margin-top: 15%;}
 		svg {width: 3em!important; margin: 0 1em!important;}
+		.tyr {font-size: 13px;}
+		.button {font-size: 16px;}
 		}
