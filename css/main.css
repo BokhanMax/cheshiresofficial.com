@@ -1,5 +1,5 @@
 	body {
-		margin: 3% 12px;
+		margin: 6% 12px 0 12px;
 		background: #111;
 		display: flex;
 		flex-direction: column;
@@ -58,7 +58,7 @@
 	
 	@media (min-width: 320px) and (max-width: 768px) {
 
-		body {background-size: 150%;}
+		body {background-size: 150%; margin-top: 20%;}
 		.logo img {width: 90%; margin-top: 50%;}
 		#logosec {margin-top: unset;}
 		#socialsec {margin-top: 28%;}

@@ -7,7 +7,6 @@
 	<script src="/js/protect.js" async></script>
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
 	<link rel="stylesheet" type="text/css" href="/css/keyframes.css">
-	<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css"> -->
 </head>
 <body>
 	<section id="flagsec">
