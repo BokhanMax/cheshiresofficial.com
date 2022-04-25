@@ -32,23 +32,27 @@
 	<footer id="socialsec">
 		<div class="socials">
 			<a href="https://www.facebook.com/cheshiresofficial/" target="_blank">
-			<svg class="grow" style="fill: #fff; width: 3em; margin: 0 1em;">
+			<svg class="svgstyle">
         		<use xlink:href="/img/fa-brands.svg#facebook"></use>
         	</svg>
 			</a>
 			<a href="https://www.instagram.com/cheshiresofficial/" target="_blank">
-			<svg class="grow" style="fill: #fff; width: 3em; margin: 0 1em;">
+			<svg class="svgstyle">
     		    <use xlink:href="/img/fa-brands.svg#instagram"></use>
         	</svg>
 			</a>
 			<a href="https://www.youtube.com/c/CHESHIRES/" target="_blank">
-			<svg class="grow" style="fill: #fff; width: 3em; margin: 0 1em;">
+			<svg class="svgstyle">
 				<use xlink:href="/img/fa-brands.svg#youtube"></use>
 			</svg>
 			</a>
 			<a href="https://twitter.com/cheshiresband/" target="_blank">
-			<svg class="grow" style="fill: #fff; width: 3em; margin: 0 1em;">
+			<svg class="svgstyle">
 				<use xlink:href="/img/fa-brands.svg#twitter"></use>
+			</svg>
+			<a href="https://open.spotify.com/artist/0Y0HFO3dDeH7i6f0giQLsB" target="_blank">
+			<svg class="svgstyle">
+				<use xlink:href="/img/fa-brands.svg#spotify"></use>
 			</svg>
 			</a>
 		</div>
