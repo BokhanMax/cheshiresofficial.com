@@ -7,6 +7,15 @@
 	<script src="/js/protect.js" async></script>
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
 	<link rel="stylesheet" type="text/css" href="/css/keyframes.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png">
+	<link rel="manifest" href="/ico/site.webmanifest">
+	<link rel="mask-icon" href="/ico/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/ico/favicon.ico">
+	<meta name="msapplication-TileColor" content="#000000">
+	<meta name="msapplication-config" content="/ico/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
 </head>
 <body>
 	<section id="flagsec">
