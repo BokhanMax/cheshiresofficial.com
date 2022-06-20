@@ -1,4 +1,4 @@
-  //запрещаем меню ПКМ
+  // заборонюємо меню ПКМ
 document.oncontextmenu = cmenu; function cmenu() { return false; }
 
 function preventSelection(element){
@@ -12,11 +12,11 @@ function preventSelection(element){
   document.selection.clear();
   }
 
-  //запрещаем выделять текст мышкой
+  // заборонюємо виділяти текст
   addHandler(element, 'mousemove', function(){ if(preventSelection) removeSelection(); });
   addHandler(element, 'mousedown', function(event){ var event = event || window.event; var sender = event.target || event.srcElement; preventSelection = !sender.tagName.match(/INPUT|TEXTAREA/i) ;});
 
-  //запрещаем нажатие клавищ Ctrl +++
+  // заборонюємо натискати Ctrl +++
   function killCtrlA(event){
   var event = event || window.event;
   var sender = event.target || event.srcElement;
@@ -29,4 +29,5 @@ function preventSelection(element){
   addHandler(element, 'keydown', killCtrlA);
   addHandler(element, 'keyup', killCtrlA);
 }
+
 preventSelection(document);
