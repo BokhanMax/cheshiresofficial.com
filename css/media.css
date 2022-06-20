@@ -1,0 +1,10 @@
+@media (min-width: 320px) and (max-width: 768px) {
+
+    body {background-size: 150%; margin-top: 12%;}
+    .logo img {width: 85%; margin-top: 20%;}
+    #logosec {margin-top: unset;}
+    #socialsec {margin-top: 15%;}
+    .tyr {font-size: 13px;}
+    .button {font-size: 15px;}
+    .svgstyle {fill: #fff; width: 1.5em; margin: 0 0.5em;}
+    }

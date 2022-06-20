@@ -2,4 +2,6 @@
 
 Official website of Ukrainian melancholic alternative rock band CHESHIRES
 
-#staywithukraine, guys!
+https://cheshiresofficial.com
+
+#staywithukraine

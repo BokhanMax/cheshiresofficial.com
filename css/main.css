@@ -78,13 +78,6 @@
 		border: white 1px solid;
 	}
 
-	/*
-	.glow-button:hover {
-		color: rgba(255, 255, 255, 1);
-    	box-shadow: 2px -1px 13px 13px rgb(255 0 0);
-	  }
-	*/
-	
 	.povernisj {
 		display: flex;
 		align-items: center;
@@ -112,15 +105,3 @@
 	.svgstyle:hover {
 		opacity: 0.4;
 	}
-
-	@media (min-width: 320px) and (max-width: 768px) {
-
-		body {background-size: 150%; margin-top: 12%;}
-		.logo img {width: 85%; margin-top: 20%;}
-		#logosec {margin-top: unset;}
-		#socialsec {margin-top: 15%;}
-		/*svg {width: 3em!important; margin: 0 1em!important;}*/
-		.tyr {font-size: 13px;}
-		.button {font-size: 15px;}
-		.svgstyle {fill: #fff; width: 1.5em; margin: 0 0.5em;}
-		}
